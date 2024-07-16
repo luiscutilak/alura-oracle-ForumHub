@@ -37,4 +37,11 @@ import java.time.format.DateTimeFormatter;
             this.autor = dadosRegistroTopico.autor();
             this.curso = dadosRegistroTopico.curso();
         }
-}
+
+        public void atualizarTopico(DadosAtualizarTopico dadosAtualizarTopico) {
+            if(dadosAtualizarTopico.titulo() != null)
+                this.titulo = dadosAtualizarTopico.titulo();
+            if(dadosAtualizarTopico.mensagem() != null)
+                this.mensagem = dadosAtualizarTopico.mensagem();
+        }
+    }

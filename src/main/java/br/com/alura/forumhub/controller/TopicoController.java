@@ -1,6 +1,7 @@
 package br.com.alura.forumhub.controller;
 
 import br.com.alura.forumhub.domain.topico.*;
+import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -42,6 +43,20 @@ public class TopicoController {
                 .map(DadosListaTopico::new));
     }
 
+    @PutMapping
+    @Transactional
+    public ResponseEntity<DadosRespostaTopico> modificarTopico(@RequestBody @Valid DadosAtualizarTopico dadosAtualizarTopico){
+        Topico topico = topicoRepository.getReferenceById(dadosAtualizarTopico.id());
+        topico.atualizarTopico(dadosAtualizarTopico);
+        return ResponseEntity.ok(new DadosRespostaTopico(topico));
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<DadosRespostaTopico> retornarDatosTopico(@PathVariable Long id){
+        Topico topico = topicoRepository.getReferenceById(id);
+        var dadosTopico = new DadosRespostaTopico(topico);
+        return ResponseEntity.ok(dadosTopico);
+    }
 
 
 }
