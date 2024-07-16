@@ -31,13 +31,8 @@ import java.time.format.DateTimeFormatter;
             this.titulo = dadosRegistroTopico.titulo();
             this.mensagem = dadosRegistroTopico.mensagem();
             LocalDateTime dataAtual = LocalDateTime.now();
-<<<<<<< HEAD
             DateTimeFormatter formatador = DateTimeFormatter.ofPattern("dd-MM-yyyy'T'HH:mm:ss");
             this.data = dataAtual.format(formatador);
-=======
-            DateTimeFormatter formateador = DateTimeFormatter.ofPattern("dd-MM-yyyy'T'HH:mm:ss");
-            this.data = dataAtual.format(formateador);
->>>>>>> origin/main
             this.status = true;
             this.autor = dadosRegistroTopico.autor();
             this.curso = dadosRegistroTopico.curso();
