@@ -11,8 +11,6 @@ import br.com.alura.forumhub.domain.topico.DadosRegistroTopico;
 import br.com.alura.forumhub.domain.topico.DadosRespostaTopico;
 import br.com.alura.forumhub.domain.topico.ITopicoRepository;
 import br.com.alura.forumhub.domain.topico.Topico;
-import jakarta.validation.Valid;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
