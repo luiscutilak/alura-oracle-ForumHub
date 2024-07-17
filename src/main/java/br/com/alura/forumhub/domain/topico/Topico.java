@@ -44,4 +44,8 @@ import java.time.format.DateTimeFormatter;
             if(dadosAtualizarTopico.mensagem() != null)
                 this.mensagem = dadosAtualizarTopico.mensagem();
         }
+
+        public void excluirTopico() {
+            this.status = false;
+        }
     }
