@@ -22,7 +22,7 @@ Trabalhando com segurança e autenticação no  interligado ao banco de dados.
   🎮 Como executar o Projeto:
 </h3>
  <p>Este projeto foi desenvolvido em Backend</p> 
- <p>💡 Para que consiga executar a aplicação, e salvar seus livros favoritos, no banco de dados, é necessário a instalação do MySQL, e manter em execução a aplicação e o banco de dados.</p>  
+ <p>💡 Para que consiga executar a aplicação, é necessário a instalação do MySQL, e manter em execução a aplicação e o banco de dados.</p>  
   <h4> ❗ Pré-Requisitos</h4>
    <p>Tenha as seguintes ferramentas, uma IDE(VSCODE, Intellij ou outra de sua preferência), MySql(banco de dados) e acesso ao Github(versionamento do código, realizar download do repositório).</p>
   <h3> 💪 Como contribuir para o projeto</h3>
