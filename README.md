@@ -15,8 +15,7 @@
 
 <h2> ⚡ Sobre o projeto </h2>
 <p>
-O projeto si trata de um desafio, criar um projeto real do backend de um forum, com tópicos, mensagens, usuários, realizar login, postar, deletar, criar, atualizar tópicos.
-Trabalhando com segurança e autenticação no  interligado ao banco de dados.
+O projeto em si, trata-se de um desafio, criar uma aplicação real de um fórum, com todas as features, criar post e tópico, apagar, editar, deletar, atualizar post, porém com foco no backend. Além de mensagens, os usuários realizam login(autenticação), trazendo também segurança para aplicação, e claro, banco de dados SQL. O projeto tem como objetivo, especializar, nós(alunos) o conceito BackEnd.
 </p>
 <h3>
   🎮 Como executar o Projeto:
