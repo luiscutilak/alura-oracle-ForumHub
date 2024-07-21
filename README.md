@@ -35,9 +35,9 @@ Trabalhando com segurança e autenticação no  interligado ao banco de dados.
   
  <h2 align="center">🔗 Links 🔗</h2>
  <p align="center"> 🐙 [Link do Projeto](https://github.com/luiscutilak/alura-oracle-ForumHub)</p> 
- <p align="center"> <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>https://code.visualstudio.com/</p>
- <p align="center"> <img src="https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white"/>https://www.jetbrains.com/pt-br/idea/ </p>
- <p align="center"> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>https://www.pgadmin.org/</p>
+ <p align="center"> <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>(https://code.visualstudio.com/)</p>
+ <p align="center"> <img src="https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white"/>(https://www.jetbrains.com/pt-br/idea/) </p>
+ <p align="center"> <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"/>(https://www.mysql.com/downloads/)</p>
 
  <h1> 🧙‍♂️ Autor </h1>
 
